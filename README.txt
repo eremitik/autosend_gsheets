@@ -1,6 +1,6 @@
 This is a repo for a simple script to download data from a google sheet, save into an excel file, and send the file automatically from your Gmail.
 
-Dependicies:
+Dependencies:
 pip install gspread
 pip install pandas
 
