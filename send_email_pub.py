@@ -20,7 +20,7 @@ sheet = client.open('SHEET_NAME').worksheet('WORKSHEET_NAME')
 data = sheet.get_all_records()
 row = sheet.row_values('ENTER_NUMBER')
 col = sheet.col_values('ENTER_NUMBER')
-cell = sheet.cell('ENTER_CELL').value
+cell = sheet.cell('SETUP_STYLE').value
 vol_data = sheet.get('ENTER_RANGE')
 
 df = pd.DataFrame(vol_data)
