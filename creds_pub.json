@@ -1,3 +1,5 @@
+*.json linguist-language=JavaScript
+
 {
   "type": "service_account",
   "project_id": "",
